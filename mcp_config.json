@@ -1,0 +1,31 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+              "-y",
+              "@modelcontextprotocol/server-filesystem",
+              "C:\\Users\\user\\Desktop\\mcp"
+            ]
+        },
+        "sqlite": {
+            "command": "docker",
+            "args": [
+                "run",
+                "--rm",
+                "-i",
+                "-v",
+                "./data:/mcp",
+                "mcp/sqlite",
+                "--db-path",
+                "/mcp/test.db"
+            ]
+        },
+
+        "memory": {
+            "command": "docker",
+            "args": ["run", "-i", "-v", "claude-memory:/app/dist", "--rm", "mcp/memory"]
+        }
+          
+      }
+}
