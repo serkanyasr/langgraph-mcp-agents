@@ -17,7 +17,6 @@
 <br>
 
 
-
 ## 📍 Overview
 
 **LangGraph MCP Agents** is an experimental project that aims to transform tools defined under MCP (Modular Communication Protocol) into autonomous **agents** using the [LangGraph](https://github.com/langchain-ai/langgraph) framework.
@@ -25,7 +24,7 @@
 The aim of this project is to transform tools designed in accordance with the MCP protocol (e.g. tools with tasks such as planning, coding, execution, etc.) into agents running on the LangGraph infrastructure and to provide effective task sharing and collaboration between these agents.
 
 ---
-
+https://github.com/user-attachments/assets/e7c7e012-06aa-4a4e-a4cd-103141efed33
 
 ## 📁 Project Structure
 
